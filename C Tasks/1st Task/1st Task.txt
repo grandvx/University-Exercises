@@ -1,0 +1,10 @@
+1) Write a program which will read from the standard input two
+integers and calculate:
+● The sum, difference, product, quotient of the division of the two numbers.
+
+● The real quotient of the two numbers, the product, the difference, the remainder and the remainder of the sum of the two numbers.
+
+● The square of the first number and the square root of the second.
+
+2) Write a program that will read the length, in meters, of the edge of a cube and calculate the area and volume of the cube.
+Also calculate the area and volume of a sphere with a radius of the same length as the edge of the sphere of the previous cube.
