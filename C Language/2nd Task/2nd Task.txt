@@ -1,0 +1,7 @@
+1)
+Write a program that will take the coefficients of a quadratic equation from the keyboard and print its roots.
+The program will fully analyze the equation and print appropriate messages.
+
+2)
+Write a program which will read a month of the year (1 ... 12) and an AC year and print the number of days of the month.
+Consider whether you can implement the program without using the if statement.
