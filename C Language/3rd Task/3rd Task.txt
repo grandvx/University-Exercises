@@ -1,0 +1,13 @@
+1)
+Write a program that will display the following figures on the screen. The number of lines in the shapes is given by the keyboard.
+*       *****               .       *****
+**       ****              *.*      *. .*
+***       ***             **.**     * . *
+****       **            ***.***    *. .*
+*****       *           ****.****   *****
+
+2)
+Write a program that calculates the following series: The implementation will not include calculations of powers and factorials.
+
+ sin(x) = x - (x^3/3!)+(x^5/5!)-(x^7/7!)+(x^9)/9!...
+The value of the variable x is in the interval [0... 2π].
