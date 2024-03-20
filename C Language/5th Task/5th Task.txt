@@ -1,0 +1,14 @@
+Write a program which, first reads from a text file (the name of which is given as an argument at the command line) words (one per line)
+and stores them in a dynamically defined table strings.
+It will then compute and print all uppercase Latin letters and the frequency of each letter, in the set of words, sorted in descending order of frequency.
+In the end, it will produce and print the combinations of the first 5 letters (those with the highest frequency) by 2.
+For the implementation of the program, all the following rules will be taken into account:
+● In case the program is executed with an incorrect number of parameters, this message will be printed: "Invalid number of parameters" and the program will be terminated.
+● If the input flle cannot be read, this message will be printed: "Cannot read input file" and the program will be terminated.
+● The input file shall contain, exclusively, upper case Latin characters and line changes. There will be a line change and after the last word.
+    In case an incorrect content in the input file is detected (must be checked) this message will be printed: "Invalid Data in Line XXXXXXX" where XXXXXXX is the line number of the file which the error was detected (7 numerical digits) and the program will be terminated.
+● Each letter and its frequency will be printed on an independent line which will have the form "Y XXXXXXX" where Y is the letter and XXXXXXX the frequency (7 numerical digits).
+● Each combination of letters will be printed on a line of the form: "XY" where X is the 1st letter of the combination and Y is the 2nd letter. There will be no space in between.
+● If at any point in the program, the memory commitment fails, for whatever reason, the message "Memory Problem" will be printed and the program will be terminated.
+● The program will write to the standard input, if applicable, only the previous messages exactly as specified in the specification.
+    Each message is followed by a change line. No other messages, blanks, blank lines etc. will be printed for any reason.
