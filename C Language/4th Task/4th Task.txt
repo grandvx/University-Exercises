@@ -1,0 +1,16 @@
+1)
+Write a program which, through a suitable menu, will allow you the user to perform the following functions:
+● Calculate the sine of an angle given in degrees.
+● Calculation of the cosine of an angle given in degrees.
+● Calculation of exponentiation. The base and exponent are integers and the result is a real number.
+● Calculation of a sum of combinations of N elements per K.
+● Input from standard input N integers and calculation of their average.
+
+The calculations of the sine and cosine are done with the formulas:
+sin(x) = x - (x^3/3!)+(x^5/5!)-(x^7/7!)+(x^9)/9!...
+cos(x) - 1 - (x^2/2!)+(x^4/4!)-(x^6/6!)+(x^8/8!)...
+where x is the angle in radians.
+
+The calculation of the exponentiation will be carried out with a function that will be created.
+The last function of the program (calculating the average N of numbers), although it will run normally for any positive number of integers (N > 0),
+it should be checked with at least 1.000.000 numbers (N >= 1.000.000).
