@@ -1,9 +1,13 @@
 1)
 Write a program which will read from the standard input two integers and calculate:
 - The sum, difference, product, quotient and remainder of the division of the two numbers.
-- The real quotient of the two numbers, the product, the difference, the remainder, the remainder, and the division of the two numbers.
-- The square of the first number and the square root of the second number.
+- The real quotient of the two numbers.
+- The square of the first number and the square root of the second number(of the corresponding real number).
+No need to consider the probability of dividing by zero.
 
 2)
 Write a program that reads the length, in meters, of the edge of a cube and calculates the area and volume of the cube.
 Also calculate the area and volume of a sphere with a radius of the same length as the edge of the previous cube.
+
+3)
+Write a program that calculates the area of a triangle having as input the lengths of its three sides (real numbers).

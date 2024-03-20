@@ -1,30 +1,73 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <math.h>
-#define PI 3.1415
-#define STOP 1e-6
+int main()
 
-int main (int argc, char **argv)
-{	
-	int t, pros, paran;
-	double x, oros, prog, sum;
-	printf("Give the corner: \n");
-	scanf("%d", &t);
-	x=2*PI*t/360;
-	paran=3;
-	oros=x;
-	sum=oros;
-	pros=-1;
-	do
+{
+	int i, j, space, rows, stars;
+	
+	//1st Figure
+	printf ("Give the number of the lines: ");
+	scanf("%d", &rows);
+	
+	for (i=1; i<=rows; ++i)
 	{
-		prog=oros;
-		oros=oros*x*x/(paran*(paran-1));
-		sum+=oros*oros;
-		pros*=-1;
-		paran+2;
+		for (j=1; j<=i; ++j)
+		{
+			printf("* ");
+		}
+		printf("\n");
 	}
-	while(fabs(oros-prog)>STOP);
-	printf("The sin of the angle %d is: %f\n",t,sum);
-	printf("%f\n", sin(x));
+	
+	//2nd Figure
+	for(i=1; i<=rows; ++i)
+	{
+		for(j=i; j<rows; ++j)
+		{
+			printf("  ");
+		}
+		for(j=1; j<=i; ++j)
+		{
+			printf("* ");
+		}
+		printf("\n");
+	}
+	
+	//3rd Figure
+	for (i=0; i<rows; i++)
+	{
+		space = rows -1 -i;
+		for (j=0; j<space; j++)
+		{
+			printf(" ");
+		}
+		stars = 2 * i + 1;
+		for(j=0; j<stars; j++)
+		{
+			if (j==stars / 2)
+			{
+				printf(".");
+			}
+			else
+			{
+				printf("*");
+			}
+		}
+		printf("\n");
+	}
+	
+	//4th Figure
+ 	for (i=1; i<=rows; i++)
+ 	{
+ 		for (j=1; j<=rows; j++)
+ 		{
+ 			if (j==rows || j==1 || i==1 || i==rows || j==rows)
+ 			printf("*");
+ 			else if (j==i || j==rows-(i-1))
+ 			printf(".");
+ 			else
+ 			printf(" ");
+		}
+		 printf("\n");
+	}
 	return 0;
-}
+ }

@@ -1,4 +1,17 @@
-1)
+1a)
+Write a program that takes as input N even integer numbers and prints:
+
+● The sum of numbers given as input.
+● The average of the multiples of 3.
+● The product of the multiples of 4.
+● The product of the negative numbers.
+
+The implementation will only use the while iteration structure.
+
+1b)
+Write a variant of the 1a) program which uses only the do while iteration structure.
+
+2)
 Write a program that will display the following figures on the screen. The number of lines in the shapes is given by the keyboard.
 *       *****               .       *****
 **       ****              *.*      *. .*
@@ -6,8 +19,15 @@ Write a program that will display the following figures on the screen. The numbe
 ****       **            ***.***    *. .*
 *****       *           ****.****   *****
 
-2)
+3)
 Write a program that calculates the following series: The implementation will not include calculations of powers and factorials.
 
  sin(x) = x - (x^3/3!)+(x^5/5!)-(x^7/7!)+(x^9)/9!...
 The value of the variable x is in the interval [0... 2π].
+
+4a)
+Write a program that initializes a float variable with the value 0.0 and then, in one iteration, increase its value by 0.1 until it reaches the value 10.0
+At each step the increasing number of the step of the iteration and the new value of the of the variable will be printed.
+
+4b)
+Write a variant of the 4a) program which uses a double variable instead of a float.
