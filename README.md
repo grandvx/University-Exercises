@@ -1,2 +1,2 @@
 # University-Exercises
-// Just university exercises on many subjects.
+Just university exercises on many subjects.
